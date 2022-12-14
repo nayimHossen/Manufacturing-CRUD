@@ -9,9 +9,9 @@ app.use(cookieparser());
 app.use(cors());
 
 //ROUTE IMPORT
-const serviceRoute = require("./routes/serviceRoute");
+const infoRouter = require("./routes/infoRoute");
 
-app.use("/api/v1", serviceRoute);
+app.use("/api/v1", infoRouter);
 
 //MIDDLEWARE FOR ERROR
 app.use(errorMiddleware);
