@@ -6,7 +6,7 @@ const infoSchema = new mongoose.Schema({
     required: [true, "Please enter name"],
     trim: true,
   },
-  sectors: [],
+  sector: [],
   createdAt: {
     type: Date,
     default: Date.now,

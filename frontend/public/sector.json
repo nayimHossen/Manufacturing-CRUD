@@ -1,0 +1,110 @@
+[
+  {
+    "category": "Manufacturing",
+    "sectors": ["Construction materials", "Electronics and Optics"]
+  },
+  {
+    "category": "Food and Beverage",
+    "sectors": [
+      "Bakery confectionery products",
+      "Beverages",
+      "Fish fish products",
+      "Meat meat products",
+      "Milk dairy products",
+      "Sweets snack food"
+    ]
+  },
+  {
+    "category": "Furniture",
+    "sectors": [
+      "Bathroom/sauna",
+      "Bedroom",
+      "Children’s room",
+      "Kitchen",
+      "Living room",
+      "Office",
+      "Outdoor",
+      "Project furniture"
+    ]
+  },
+  {
+    "category": "Machinery",
+    "sectors": [
+      "Machinery components",
+      "Machinery equipment/tools",
+      "Manufacture of machinery",
+      "Maritime",
+      "Aluminium and steel workboats",
+      "Boat/Yacht building",
+      "Ship repair and conversion",
+      "Metal structures",
+      "Repair and maintenance service"
+    ]
+  },
+  {
+    "category": "Metalworking",
+    "sectors": [
+      "Construction of metal structures",
+      "Houses and buildings",
+      "Metal products",
+      "Metal works",
+      "CNC-machining",
+      "Forgings, Fasteners",
+      "Gas, Plasma, Laser cutting",
+      "MIG, TIG, Aluminum welding"
+    ]
+  },
+  {
+    "category": "Plastic and Rubber",
+    "sectors": [
+      "Packaging",
+      "Plastic goods",
+      "Plastic processing technology",
+      "Blowing",
+      "Moulding",
+      "Plastics welding and processing",
+      "Plastic profiles"
+    ]
+  },
+  {
+    "category": "Printing",
+    "sectors": [
+      "Advertising",
+      "Book/Periodicals printing",
+      "Labelling and packaging printing",
+      "Textile and Clothing",
+      "Clothing",
+      "Textile"
+    ]
+  },
+  {
+    "category": "Wood",
+    "sectors": [
+      "Other (Wood)",
+      "Wooden building materials",
+      "Wooden houses",
+      "Creative industries",
+      "Energy technology",
+      "Environment"
+    ]
+  },
+  {
+    "category": "Service",
+    "sectors": [
+      "Business services",
+      "Engineering",
+      "Information Technology and Telecommunications",
+      "Data processing, Web portals, E-marketing",
+      "Programming, Consultancy",
+      "Software, Hardware",
+      "Telecommunications",
+      "Tourism",
+      "Translation services",
+      "Transport and Logistics",
+      "Air",
+      "Rail",
+      "Road",
+      "Water"
+    ]
+  }
+]
