@@ -1,24 +1,21 @@
-# [Dental Doctor appointment](https://dantal-doctor.onrender.com/)
+# [Manufacturing-CRUD]()
 
-## Overview of Dental Doctor
+## Overview of Manufacturing-CRUD
 
-This is a dental doctor appointment website. Where people can book appointments for separate treatments. The Dental Doctor website is a great resource for finding a dentist in your area. The website provides a directory of dentists, as well as information on dental services and products. You can also find tips on how to care for your teeth and gums, and how to find a dentist that is right for you.
+This is a Manufacturing-CRUD website. Where people can book appointments for separate treatments. The Dental Doctor website is a great resource for finding a dentist in your area. The website provides a directory of dentists, as well as information on dental services and products. You can also find tips on how to care for your teeth and gums, and how to find a dentist that is right for you.
 
 ## front-end Technology:
 
 - React.js,
 - Tailwind CSS,
 - React-router-dom,
-- Remixicon,
-- Swiper.js
+- Remixicon
 
 ## Back-end Technology:
 
 - node.js,
 - express.js,
-- Mongodb,
-- Stripe Payment,
-- nodemailer
+- Mongodb
 
 ## What did I learn from this project?
 
