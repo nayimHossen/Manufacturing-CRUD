@@ -10,8 +10,9 @@ app.use(cors());
 
 //ROUTE IMPORT
 const infoRouter = require("./routes/infoRoute");
+const sectorRouter = require("./routes/sectorsRoute");
 
-app.use("/api/v1", infoRouter);
+app.use("/api/v1", infoRouter, sectorRouter);
 
 //MIDDLEWARE FOR ERROR
 app.use(errorMiddleware);

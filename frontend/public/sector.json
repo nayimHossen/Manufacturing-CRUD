@@ -1,22 +1,18 @@
 [
   {
-    "category": "Manufacturing",
-    "sectors": ["Construction materials", "Electronics and Optics"]
-  },
-  {
-    "category": "Food and Beverage",
+    "category": "Pick the Sectors you are currently involved in",
     "sectors": [
+      "Manufacturing",
+      "Construction materials",
+      "Electronics and Optics",
+      "Food and Beverage",
       "Bakery confectionery products",
       "Beverages",
       "Fish fish products",
       "Meat meat products",
       "Milk dairy products",
-      "Sweets snack food"
-    ]
-  },
-  {
-    "category": "Furniture",
-    "sectors": [
+      "Sweets snack food",
+      "Furniture",
       "Bathroom/sauna",
       "Bedroom",
       "Children’s room",
@@ -24,12 +20,8 @@
       "Living room",
       "Office",
       "Outdoor",
-      "Project furniture"
-    ]
-  },
-  {
-    "category": "Machinery",
-    "sectors": [
+      "Project furniture",
+      "Machinery",
       "Machinery components",
       "Machinery equipment/tools",
       "Manufacture of machinery",
@@ -38,12 +30,8 @@
       "Boat/Yacht building",
       "Ship repair and conversion",
       "Metal structures",
-      "Repair and maintenance service"
-    ]
-  },
-  {
-    "category": "Metalworking",
-    "sectors": [
+      "Repair and maintenance service",
+      "Metalworking",
       "Construction of metal structures",
       "Houses and buildings",
       "Metal products",
@@ -51,46 +39,29 @@
       "CNC-machining",
       "Forgings, Fasteners",
       "Gas, Plasma, Laser cutting",
-      "MIG, TIG, Aluminum welding"
-    ]
-  },
-  {
-    "category": "Plastic and Rubber",
-    "sectors": [
+      "MIG, TIG, Aluminum welding",
+      "Plastic and Rubber",
       "Packaging",
       "Plastic goods",
       "Plastic processing technology",
       "Blowing",
       "Moulding",
       "Plastics welding and processing",
-      "Plastic profiles"
-    ]
-  },
-  {
-    "category": "Printing",
-    "sectors": [
+      "Plastic profiles",
+      "Printing",
       "Advertising",
       "Book/Periodicals printing",
       "Labelling and packaging printing",
       "Textile and Clothing",
       "Clothing",
-      "Textile"
-    ]
-  },
-  {
-    "category": "Wood",
-    "sectors": [
+      "Textile",
+      "Wood",
       "Other (Wood)",
       "Wooden building materials",
       "Wooden houses",
       "Creative industries",
       "Energy technology",
-      "Environment"
-    ]
-  },
-  {
-    "category": "Service",
-    "sectors": [
+      "Environment",
       "Business services",
       "Engineering",
       "Information Technology and Telecommunications",

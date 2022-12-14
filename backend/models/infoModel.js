@@ -7,6 +7,10 @@ const infoSchema = new mongoose.Schema({
     trim: true,
   },
   sector: [],
+  agree: {
+    type: Boolean,
+    required: true,
+  },
   createdAt: {
     type: Date,
     default: Date.now,
