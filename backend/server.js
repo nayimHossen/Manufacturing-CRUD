@@ -1,6 +1,7 @@
 const app = require("./app");
 const dotenv = require("dotenv");
 const connectDatabase = require("./config/database");
+const PORT = process.env.PORT || 5000;
 
 //HANDLING UNCAUGHT EXCEPTION
 process.on("uncaughtException", (error) => {
@@ -20,8 +21,8 @@ app.get("/", (req, res) => {
   res.send("Api working");
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server is working on http://localhost:${process.env.PORT}`);
+app.listen(PORT, () => {
+  console.log(`Server is working on http://localhost:${PORT}`);
 });
 
 //UNHANDLED PROMISE REJECTION
