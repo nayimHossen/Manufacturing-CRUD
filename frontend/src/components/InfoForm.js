@@ -108,11 +108,7 @@ const InfoForm = () => {
   };
 
   //FETCH DATA FOR API USING QUERY
-  const {
-    data: sectors,
-    isLoading,
-    refetch,
-  } = useQuery(["sectors"], () =>
+  const { data: sectors, isLoading } = useQuery(["sectors"], () =>
     fetch(`https://info-crud1.onrender.com/api/v1/sectors`).then((res) =>
       res.json()
     )
