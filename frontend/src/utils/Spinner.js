@@ -1,15 +1,14 @@
 import { Oval } from "react-loader-spinner";
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 import React from "react";
 
 const Spinner = () => {
   return (
     <>
-      <div className="flex justify-center my-20">
+      <div className="flex justify-center items-center h-96">
         <Oval
-          height={80}
-          width={80}
+          height={50}
+          width={50}
           color="#3CCF56"
           wrapperStyle={{}}
           wrapperclassName=""

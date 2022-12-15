@@ -7,10 +7,6 @@ const sectorSchema = new mongoose.Schema({
     trim: true,
   },
   sectors: [],
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
 });
 
 module.exports = mongoose.model("Sector", sectorSchema);

@@ -5,6 +5,8 @@ import "./index.css";
 import "remixicon/fonts/remixicon.css";
 import App from "./App";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 // Create a client
 const queryClient = new QueryClient();
@@ -17,5 +19,6 @@ root.render(
         <App />
       </BrowserRouter>
     </QueryClientProvider>
+    <ToastContainer />
   </React.StrictMode>
 );
