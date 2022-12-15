@@ -42,7 +42,11 @@ const InfoForm = () => {
     };
     try {
       const body = JSON.stringify(newData);
-      await axios.post("http://localhost:5000/api/v1/info/new", body, config);
+      await axios.post(
+        "https://info-crud1.onrender.com/api/v1/info/new",
+        body,
+        config
+      );
 
       window.location.reload();
     } catch (err) {
@@ -58,7 +62,10 @@ const InfoForm = () => {
       },
     };
     try {
-      const res = await axios.get("http://localhost:5000/api/v1/info", config);
+      const res = await axios.get(
+        "https://info-crud1.onrender.com/api/v1/info",
+        config
+      );
       setInfos(res.data.infoDatas);
       console.log("contact", res.data);
     } catch (err) {
@@ -79,7 +86,7 @@ const InfoForm = () => {
     };
     try {
       const res = await axios.get(
-        `http://localhost:5000/api/v1/info/${id}`,
+        `https://info-crud1.onrender.com/api/v1/info/${id}`,
         config
       );
       setCurrentContact(res?.data?.infoData);
@@ -106,7 +113,9 @@ const InfoForm = () => {
     isLoading,
     refetch,
   } = useQuery(["sectors"], () =>
-    fetch(`http://localhost:5000/api/v1/sectors`).then((res) => res.json())
+    fetch(`https://info-crud1.onrender.com/api/v1/sectors`).then((res) =>
+      res.json()
+    )
   );
 
   //LOADING SPINNER
@@ -124,7 +133,7 @@ const InfoForm = () => {
 
     try {
       await axios.put(
-        `http://localhost:5000/api/v1/info/${id}`,
+        `https://info-crud1.onrender.com/api/v1/info/${id}`,
         currentContact,
         config
       );
@@ -142,7 +151,7 @@ const InfoForm = () => {
   //HEANDLE DELETE BY ID
   const handleDelete = async (id) => {
     await axios
-      .delete(`http://localhost:5000/api/v1/info/${id}`)
+      .delete(`https://info-crud1.onrender.com/api/v1/info/${id}`)
       .then((res) => {
         const del = infos.filter((contact) => id !== contact.id);
         setInfos(del);
